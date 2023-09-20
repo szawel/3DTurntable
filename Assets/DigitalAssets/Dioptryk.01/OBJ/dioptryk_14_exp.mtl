@@ -9,12 +9,12 @@ Ni 1.450000
 d 1.000000
 illum 3
 Pr 0.200000
-Pm 1.000000
 Ps 0.000000
 Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
+map_Pm E:/2023/AQUATIA/EXPORT/TXT/MetalEroded/Metalness_01.png
 map_Bump -bm 1.000000 E:/2023/AQUATIA/rend/textures/cables_N_01.png
 
 newmtl MetalEroded
@@ -24,14 +24,14 @@ Ni 1.450000
 d 1.000000
 illum 3
 Pr 0.340909
-Pm 1.000000
 Ps 0.000000
 Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd -o 0.24 0 0 E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Color.jpg
-map_Bump -o 0.24 0 0 -bm 3.770000 E:/2023/AQUATIA/MAT/Shadery/TerracottaClay001/TerracottaClay001_NRM_4K.jpg
+map_Kd E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Color.jpg
+map_Pm E:/2023/AQUATIA/EXPORT/TXT/MetalEroded/Metalness_01.png
+map_Bump -bm 3.770000 E:/2023/AQUATIA/MAT/Shadery/TerracottaClay001/TerracottaClay001_NRM_4K.jpg
 
 newmtl MetalHamDark
 Kd 0.800000 0.800000 0.800000
