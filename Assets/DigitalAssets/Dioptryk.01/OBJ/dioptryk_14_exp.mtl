@@ -92,6 +92,7 @@ Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
+map_Bump -bm 2.000000 FishEye_N.png
 
 newmtl inner_cut
 Kd 0.034104 0.014892 0.009596
