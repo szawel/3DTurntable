@@ -1,4 +1,4 @@
-# Blender 3.4.1 MTL File: 'dioptryk_18.blend'
+# Blender 3.4.1 MTL File: 'dioptryk_20.blend'
 # www.blender.org
 
 newmtl Cable
@@ -15,8 +15,9 @@ Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
+map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/TXT/Cables_v02/cables_N_v02.png
 
-newmtl Cable.003
+newmtl CableInside
 Kd 0.090125 0.043547 0.029810
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -30,6 +31,22 @@ Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
+
+newmtl DioptrykMetal
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd E:/2023/AQUATIA/rend/txt/Diff/dioptryk_D_v02.png
+map_Pm E:/2023/AQUATIA/EXPORT/OBJ/02/Metal/Metalness_01.png
+map_Pr E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Roughness.jpg
+map_Bump -bm 0.820000 E:/2023/AQUATIA/rend/txt/normal/dioptryk_v02_N.png
 
 newmtl Golden_Metal_002_1k
 Kd 1.000000 1.000000 1.000000
@@ -46,45 +63,10 @@ Pcr 0.000000
 aniso 0.000000
 anisor 0.000000
 
-newmtl MetalEroded
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-Pr 0.400000
-Pm 0.000000
-
-newmtl MetalErodedBake
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 3
-Pm 1.000000
-Ps 0.000000
-Pc 0.000000
-Pcr 0.030000
-aniso 0.000000
-anisor 0.000000
-map_Kd E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Color.jpg
-map_Pr E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Roughness.jpg
-map_Bump -bm 1.000000 E:/2023/AQUATIA/rend/txt/normal/dioptryk_N.png
-
 newmtl MetalHamDark
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-Pr 0.400000
-Pm 0.000000
-
-newmtl MetalHamDarkBAKE
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
@@ -94,40 +76,7 @@ Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Color.jpg
 map_Pr E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Roughness.jpg
-map_Bump -bm 1.000000 E:/2023/AQUATIA/rend/txt/normal/dioptryk_N.png
-
-newmtl MetalHamLight
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 3
-Pm 1.000000
-Ps 0.000000
-Pc 0.000000
-Pcr 0.030000
-aniso 0.000000
-anisor 0.000000
-map_Kd E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Color.jpg
-map_Pr E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Roughness.jpg
-
-newmtl MetalHamLightBake
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 3
-Pm 1.000000
-Ps 0.000000
-Pc 0.000000
-Pcr 0.030000
-aniso 0.000000
-anisor 0.000000
-map_Kd E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Color.jpg
-map_Pr E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Roughness.jpg
-map_Bump -bm 0.820000 E:/2023/AQUATIA/rend/txt/normal/dioptryk_N.png
 
 newmtl fishEye
 Kd 0.800000 0.800000 0.800000
@@ -145,9 +94,9 @@ aniso 0.000000
 anisor 0.000000
 
 newmtl inner_cut
-Kd 0.157432 0.060427 0.035540
+Kd 0.034104 0.014892 0.009596
 Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
+Ke 0.114951 0.045005 0.026812
 Ni 1.450000
 d 1.000000
 illum 3
