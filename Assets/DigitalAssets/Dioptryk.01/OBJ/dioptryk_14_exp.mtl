@@ -1,4 +1,4 @@
-# Blender 3.4.1 MTL File: 'dioptryk_23.blend'
+# Blender 3.4.1 MTL File: 'dioptryk_26.blend'
 # www.blender.org
 
 newmtl Cable
@@ -43,10 +43,10 @@ Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd E:/2023/AQUATIA/EXPORT/OBJ/03/dioptryk_D_v03.png
+map_Kd E:/2023/AQUATIA/EXPORT/OBJ/04/dioptryk_D_v04.png
 map_Pm E:/2023/AQUATIA/EXPORT/OBJ/02/Metal/Metalness_01.png
 map_Pr E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Roughness.jpg
-map_Bump -bm 0.820000 E:/2023/AQUATIA/EXPORT/OBJ/03/dioptryk_v03_N.png
+map_Bump -bm 0.820000 E:/2023/AQUATIA/EXPORT/OBJ/04/dioptryk_v03_N.png
 
 newmtl Dioptryk_foot
 Ks 1.000000 1.000000 1.000000
@@ -64,6 +64,55 @@ anisor 0.000000
 map_Kd E:/2023/AQUATIA/EXPORT/OBJ/foot/01/Dioptyk_Items_D.png
 map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/OBJ/foot/01/Dioptyk_Items_N.png
 
+newmtl MEDAL_GOLD
+Ks 0.122727 0.122727 0.122727
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+Pr 0.164062
+Pm 1.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_D.png
+map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_N.png
+
+newmtl Material
+Ks 1.000000 1.000000 1.000000
+Ke 0.013692 0.000000 0.071145
+Ni 1.350000
+d 0.895881
+illum 6
+Pr 0.178693
+Pm 0.536364
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+Tf 1.000000 1.000000 1.000000
+map_Kd E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_D.png
+map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_N.png
+
+newmtl Material.003
+Ks 0.163636 0.163636 0.163636
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+Pr 0.409091
+Pm 1.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_D.png
+map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_N.png
+
 newmtl MetalHamDark
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
@@ -78,6 +127,38 @@ Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
 map_Pr E:/2023/AQUATIA/MAT/Shadery/Metal047A_4K-JPG/Metal047A_4K-JPG_Roughness.jpg
+
+newmtl RimShader
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+Pr 0.250000
+Pm 1.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_D.png
+map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_N.png
+
+newmtl dioptryk_bracklet
+Kd 0.004895 0.004895 0.004895
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+Pr 0.129921
+Pm 0.937500
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_N.png
 
 newmtl fishEye
 Kd 0.800000 0.800000 0.800000
@@ -94,3 +175,19 @@ Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
 map_Bump -bm 2.000000 E:/2023/AQUATIA/EXPORT/OBJ/03/FishEye_N.png
+
+newmtl medal01_ribbon
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+Pr 0.531818
+Pm 0.395455
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_D.png
+map_Bump -bm 1.000000 E:/2023/AQUATIA/EXPORT/OBJ/04/Dioptyk_Items_v04_N.png
